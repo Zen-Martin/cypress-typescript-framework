@@ -1,0 +1,21 @@
+{
+  "viewportWidth": 1280,
+  "viewportHeight": 720,
+  "pageLoadTimeout": 60000,
+  "defaultCommandTimeout": 10000,
+  "requestTimeout": 10000,
+  "testFiles": "features/**/*.feature",
+  "ignoreTestFiles": "*.ts",
+  "fixturesFolder": "src/resources",
+  "integrationFolder": "src/test",
+  "screenshotsFolder": "target/screenshots",
+  "videosFolder": "target/videos",
+  "downloadsFolder": "target/downloads",
+  "supportFile": "src/main/support/index.js",
+  "commandsFile": "src/main/support/commands.js",
+  "pluginsFile": "src/main/plugins/index.js",
+  "env": {
+    "allureResultsPath": "target/allure-results"
+}
+  
+}
