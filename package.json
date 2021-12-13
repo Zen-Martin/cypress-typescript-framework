@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": "npx cypress open --env allure=true",
-    "cypress:run": "npx cypress run --browser chrome --env allure=true,allureResultsPath=target/allure-results"
+    "cypress:run": "npx cypress run --browser chrome --env allure=true",
+    "allure:open": "allure serve"
   },
   "keywords": [],
   "author": "Martin Giress",
