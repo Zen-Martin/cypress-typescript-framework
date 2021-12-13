@@ -8,3 +8,4 @@ Feature: Re-Test Cases for Auchan Website without account Access
   Scenario: Link to a non-existent page
     When Scroll down, click on the *filières responsables*
     And Click on *voir tous les produits*
+    Then A message about the page is no longer available

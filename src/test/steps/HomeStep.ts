@@ -15,6 +15,6 @@ When("Click on *voir tous les produits*", () => {
     homePage.clickOnAllProductView();
 });
 
-Then("A page displaying a message that the page is no longer available", () => {
+Then("A message about the page is no longer available", () => {
     homePage.verifyRedirection();
 });

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "sourceMap": true,
+    "declaration": true,
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "lib": ["es2020", "dom"]
+  },
+
+  "include": [
+    "../node_modules/@shelex/cypress-allure-plugin/reporter",
+    "../node_modules/cypress"
+  ]
+}

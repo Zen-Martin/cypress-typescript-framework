@@ -13,9 +13,5 @@
   "downloadsFolder": "target/downloads",
   "supportFile": "src/main/support/index.js",
   "commandsFile": "src/main/support/commands.js",
-  "pluginsFile": "src/main/plugins/index.js",
-  "env": {
-    "allureResultsPath": "target/allure-results"
-}
-  
+  "pluginsFile": "src/main/plugins/index.js"
 }
