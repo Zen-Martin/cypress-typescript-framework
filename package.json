@@ -19,6 +19,10 @@
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": false,
     "stepDefinitions": "src/test/steps"
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json"
+    }
   },
   "devDependencies": {
     "@shelex/cypress-allure-plugin": "^2.23.0",
