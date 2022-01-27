@@ -6,9 +6,9 @@ class HomePage extends Page{
 
 private cookieOption:string = "#onetrust-reject-all-handler";
 
-private affiliate:string = "footer:nth-child(2) > div > div > div > p:nth-child(5) > a:nth-child(1)";
+private affiliate:string = "#cms-slot-footerSlot > footer:nth-child(2) > div > div > div > p:nth-child(6) > a:nth-child(1)";
 
-private seeAllProduct:string = ".flex-wrapper > #wrapper > #cms-slot-contentSlot > .filieres--edito > .btn";
+private seeAllProduct:string = "#cms-slot-contentSlot > section.filieres--edito.row > a";
 
 public goToHomepage():void{
     this.goTo(config.env_URL);
