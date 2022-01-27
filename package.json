@@ -21,7 +21,7 @@
     "stepDefinitions": "src/test/steps",
     "cucumberJson": {
       "generate": true,
-      "outputFolder": "cypress/cucumber-json",
+      "outputFolder": "target/cucumber-json",
       "filePrefix": "",
       "fileSuffix": ".cucumber"
     }
