@@ -13,7 +13,6 @@ private seeAllProduct:string = "#cms-slot-contentSlot > section.filieres--edito.
 public goToHomepage():void{
     this.goTo(config.env_URL);
     this.clickOn(this.cookieOption);
-    //this.clickOn(this.visitOption);
 }
 
 public clickOnAffiate():void{
